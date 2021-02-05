@@ -1,0 +1,50 @@
+#maindiv1{
+    border: 1px solid black;
+    height: 800px;
+    width: 100%;
+}
+#sider{
+    border: 1px solid black;
+    height: 800px;
+    width:20%;
+    display: inline;
+    float: left;
+}
+#photo-div{
+    border: 1px solid black;
+    height: 500px;
+    margin-top: 10%;
+    width: 55%;
+    display:inline;
+    float: left;
+    background-image: url("Pictures/pexels-kat-jayne-568021.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+#right-sider{
+    border: 1px solid black;
+    height: 800px;
+    width: 40%;
+    margin-right: 2%;
+    display: inline;
+    float: right;
+}
+.pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+button{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 5px 20px;
+
+}
