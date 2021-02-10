@@ -9,7 +9,7 @@ body, html{
     width: 100%;
     height: 1000px;
     overflow: auto;
-    background-image: url("Pictures/annie-spratt-1YnBzhJISg4-unsplash.jpg");
+    background-image: url("Pictures/pexels-kat-jayne-568021.jpg");
    background-attachment: fixed;
    background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body, html{
 }
 #main{
     width: 100%;
-    height: 2000px;
+    height: 1000px;
     
     background-image: url("Pictures/Capture.PNG");
 }
@@ -26,8 +26,8 @@ body, html{
 /*----------This is NavBar i cili eshte njejt me homepage----*/
 #navbar {
   background-color: #333; /* Black background color */
-  /* background:transparent; */
-  position: sticky; /* Make it stick/fixed */
+  background:transparent;
+  position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
@@ -71,73 +71,3 @@ body, html{
      font-family: 'Nanum Gothic Coding', monospace;
      font-weight: 400;
  }
- p{
-   margin-left: 10%;
-   margin-right: 10%;
-   color: white;
-   font-family: 'Cutive Mono', monospace;
-   font-size: 20px;
-   text-align: justify;
- }
- p::first-letter{
-   font-size: 30px;
- }
- h1::first-letter{
-   font-size: 45px;
- }
-
- #dio{
-   text-decoration: none;
-   color: white;
-   border: 1px solid white;
-   padding: 10px;
-   float: right;
-   margin-right: 10%;
- }
- #position{
-   position: absolute;
-   top:8%;
-    left: 21%;
-    /* border:1px solid white; */
-    width: 1000px;  
-    height: 700px;
-    color: black;
-  
-  
-  }
-
-
-  /* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-/* Global */
-
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-    font-weight: bold;
-    color: black;
-}
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(50) 1s 1 normal both,
-             blinkTextCursor 500ms steps(50) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}

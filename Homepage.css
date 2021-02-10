@@ -25,8 +25,8 @@ body, html{
   background-size: cover;
 }
 #second-div-using-parallax-version-2{
-  /* background-color: #161616; 
-  background-image: url("Pictures/Capture.PNG");*/
+  /* background-color: #161616; */
+  background-image: url("Pictures/Capture.PNG");
   height: 1060px;
   overflow: auto;
 	width: auto;
@@ -87,7 +87,7 @@ body, html{
     font-family: 'Lato', sans-serif;
     margin-left: 0.5%;
     margin-top: 0.2%;
-    width: 6%;
+    width: 5%;
     height: 5%;
   }
 /* Style the navbar links */
@@ -188,11 +188,12 @@ body, html{
 #button-log-in{
   width: 2.8cm;
   height: 1cm;
-  margin-left: 4.2cm;
-  flex-direction: row;
+  margin-left:5cm;
+  margin-top: 0.7cm;
   flex: auto;
+  flex-direction: row;
   background: transparent;
-  border: 2px solid white;
+  border:2px solid white;
   color: white;
 
 }
@@ -348,227 +349,71 @@ abbr{
 .Grayscaler{
   filter: grayscale(100%);
 }
-
-
-/*-------------------------------------------------------------------------------New Main-------------------------------------------------------------------*/
-#newmain{
-  width: 100%;
-  height: 55<div0%;
-  background-image: url("Pictures/Capture.PNG");
-  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
-#first-inside-newmain-div{
-  border: 1px solid transparent;
-  width: 100%;
-  height: 900px;
-}
-#first-div-inside{
+
+html {
   box-sizing: border-box;
-  margin-top: 7%;
-  width: 60%;
-  height: 600px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
   float: left;
-  display: inline;
-  border: 1px solid transparent;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
-#second-inside-newmain-div{
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
   width: 100%;
-  height: 900px;
-  border: 1px solid transparent;
-
 }
 
-#second-div-inside{
-  box-sizing: border-box;
-  width: 60%;
-  height: 600px;
-  float: right;
-  display :inline;
-border: 1px solid transparent;
-margin-top: 10%;
-background-image:url("Pictures/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
-background-size: 100% 650px;
-background-blend-mode: color;
+.button:hover {
+  background-color: #555;
 }
 
-#third-inside-newmain-div{
-  width: 100%;
-  height: 900px;
-  border: 1px solid transparent;
-}
-#third-inside-div{
-box-sizing: border-box;
-width: 60%;
-height: 600px;
-float: left;
-display: inline;
-border: 1px solid transparent;
-margin-top: 10%;
-  
-}
-#fourth-inside-newmain-div{
-  width: 100%;
-  height: 900px;
-  border: 1px solid transparent;
-
-}
-#fourth-inside-div{
-  width: 60%;
-  height: 620px;
-  box-sizing: border-box;
-  float: right;
-  display: inline;
-  border: 1px solid transparent;
-  margin-top: 10%;
-  margin-left: -10px;
-  background-image: url("Pictures/jordan-whitt-b8rkmfxZjdU-unsplash.jpg");
-  background-size: 100% 620px;
-}
-
-/*------------------------------------------------------H1 Text editing--------------------------------*/
-
-#h11{
-  margin-top:10%;
-  padding-left: 65%;
-  font-family: 'Inconsolata', monospace;
-  color: white;
-
-}
-#a1{
-  margin-left: 65%;
-  margin-right: 5%;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
-  text-align: justify;
-  color: white;
-}
-
-#first-link{
- border: 1px solid white;
- padding: 10px 30px;
- float:right;
- text-decoration: none;
- color :white;
-font-family: 'Inconsolata', monospace;
- margin-right: 20px;
-}
-.imgwidth{
-  width: 100%;
-  filter: grayscale(100);
-  height: 620px;
-}
-#h22{
-  margin-top: 12%;
-  float: left;
-  display: inline;
-  padding-left: 10%;
-  color: white;
-}
-#p1{
-  display: inline;
-  float: left;
-  margin-right: 70%;
-  margin-top: 0;
-  position: absolute;
-  top: 245%;
-  left: 5%;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
-  text-align: justify;
-  color: white;
-}
-#first-link1{
-  border: 1px solid white;
-  padding: 10px 30px;
-  float:right;
-  text-decoration: none;
-  color :white;
- font-family: 'Inconsolata', monospace;
-  margin-right: 20px;
-  position: absolute;
-  top: 300%;
-  left: 5%;
- }
-#second-link1{
-  border: 1px solid white;
- padding: 10px 30px;
- float:left;
- text-decoration: none;
- color :white;
-font-family: 'Inconsolata', monospace;
- margin-right: 20px;
- margin-left: 5%;
-}
-#p12{
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
-  text-align: justify;
-  margin-left: 5%;
-  margin-right: 66%;
-  color: white;
-  font-size: 17px;
-}
-#smalldiv-footer{
-  width: 100%;
-  height: 350px;
-  background-image:url("Pictures/Capture.PNG")
-  
-}
-#text{
-  width: 50%;
-  height: 350px;
-  border: 1px solid black;
-
-
-}
-#adres{
-  font-family: 'JetBrains Mono', monospace;
-  margin-left: 20px;
-color: white;
-}
-#aboutus{
-  font-family: 'JetBrains Mono', monospace;
-  margin-left: 60%;
-  color: white;
-}
-#p123{
-  
-  font-weight: bold;
- color: white;
-  font-family: 'JetBrains Mono', monospace;
-}
-
-#like{
-  text-decoration: none;
-  
-}
-img{
-filter: grayscale(0);
-filter:invert(100);
-}
-#trying
-{
-  /* border:1px solid black; */
-  width: 50%;
-  height:300px;
-  display: inline-flexbox;
-  float:right;
-}
-
-#imga{
-margin-top:-1px;
-  width:380px;
-height:340px;
-}
-
-#imga1{
-  margin-top:-1px;
-    width:380px;
-  height:340px;
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
   }
-  /* #padin{
-    padding: 10px;
-    width: auto;
-    height: 16px;
-    margin-right: 20px;
-  } */
+}

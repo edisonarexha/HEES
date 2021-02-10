@@ -1,0 +1,47 @@
+body , html{
+    margin: 0;
+}
+
+#divipare{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+}
+#dividyte{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+}
+#divitret{
+    border: 1px solid black;
+    width: 60%;
+    height: 2000px;
+    display: inline;
+    float: left;
+}
+#divikater{
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+    display: inline;
+    float: right;
+}
+#divipest{
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+    display: inline;
+    float: right;
+}
+#divigjashte{
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+    display: inline;
+    float: right;  
+}
+#dividyte-pare{
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+}
