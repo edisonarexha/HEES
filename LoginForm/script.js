@@ -5,12 +5,24 @@ function validateForm() {
         alert("Name must be filled out");
         return false;
     }
-
+    
     let email = document.forms["signupForm"]["email"].value;
     if (!email.includes('@hees.org')) {
         alert("Email is not valid");
         return false;
     }
+    let username = document.forms["signupForm"]["username"].value;
+    if (!username) {
+        alert("Username must be filled out");
+        return false;
+    }
+    let password = document.forms["signupForm"]["password"].value;
+    if (!password) {
+        alert("Password must be filled out");
+        return false;
+    }
+   
+
     return true
 }
 
