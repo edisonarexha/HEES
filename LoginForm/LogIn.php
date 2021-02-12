@@ -73,7 +73,7 @@
           
           <form 
             name="signupForm"
-            onSubmit="return false"
+            action="insert.php"
             method="POST"
           >
             <div class="sign-up-wrapper">
@@ -109,7 +109,8 @@
                 </div>
               </div>
               <div class="sign-up-button-row">
-                <button type="submit" onclick="Signup()">Sign up</button>
+              <!-- onclick="Signup()" -->
+                <button type="submit" >Sign up</button>
               </div>
             </div>
           </form>
