@@ -212,6 +212,8 @@ input:hover {
 }
 .role {
   color:white;
+  margin-left: 60%;
+  margin-top: -10%;
 }
 
 .sign-up-wrapper button {
