@@ -203,7 +203,16 @@ input:hover {
   margin: 20px 0 0 10px;
   color:  white;
 }
-
+.checkbox-input col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+.role {
+  color:white;
+}
 
 .sign-up-wrapper button {
   padding: 10px 25px;
