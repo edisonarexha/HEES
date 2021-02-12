@@ -1,40 +1,73 @@
-function validate(){
-    var name = document.getElementById("name").value;
-    var subject = document.getElementById("subject").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    var city = document.getElementById("city").value;
-    var message = document.getElementById("message").value;
-    var error_message = document.getElementById("error_message");
-    
-    error_message.style.padding = "10px";
-    
-    var text;
-    if(name.length < 5){
-      text = "Please Enter valid Name";
-      error_message.innerHTML = text;
-      return false;
-    }
-    if(subject.length < 10){
-      text = "Please Enter Correct Subject";
-      error_message.innerHTML = text;
-      return false;
-    }
-    if(isNaN(phone) || phone.length != 10){
-      text = "Please Enter valid Phone Number";
-      error_message.innerHTML = text;
-      return false;
-    }
-    if(email.indexOf("@") == -1 || email.length < 6){
-      text = "Please Enter valid Email";
-      error_message.innerHTML = text;
-      return false;
-    }
-    if(message.length <= 140){
-      text = "Please Enter More Than 140 Characters";
-      error_message.innerHTML = text;
-      return false;
-    }
-    alert("Form Submitted Successfully!");
-    return true;
-  }
+// const styleinput =document.getElementById('styleinput')
+// const styleinput2 =document.getElementById('styleinput2')
+// const form =document.getElementById('form1')
+// const errorElement = document.getElementById('error')
+// form.addEventListener('submit', (e) =>
+// {
+//     let messages= []
+//     if(styleinput.value === ' ' || styleinput.value == null){
+//         messages.push('Name is Required')
+//     }
+
+//         if(styleinput2.length <=3){
+//             messages.push('Write Your full Surname Please')
+//         }
+
+
+
+
+
+//     if(messages.length>0){
+//         e.preventDefault()
+//         errorElement.innerText = messages.join (', ')
+//     }
+   
+// })
+
+function validation(){
+  var name12 = document.getElementById('name12').value;
+   var surname = document.getElementById('surname').value;
+   var email = document.getElementById('email').values;
+   var subject =document.getElementById('subject').values;
+   var textareas = document.getElementById('textareas').values;
+   var error_message = document.getElementById('error_message');
+   var text;
+
+
+   error_message.style.padding = '10px';
+   error_message.style.margin = '0px 20%';
+   error_message.style.border = ' 1px solid red';
+   error_message.style.fontFamily='Oswald, sans-serif';
+   error_message.style.backgroundColor='red';
+   if(name12.length<2){
+       text = " Please Enter a Valid Name ";
+       error_message.innerHTML = text;
+       return false;
+   }
+if(surname<2){
+   text = " Please Enter a Valid SurName ";
+   error_message.innerHTML = text;
+   return false;
+}
+   if(subject.length<10){
+       text="Please Enter a Valid Subject";
+       error_message.innerHTML= text;
+       return false;
+   }
+   let email = document.forms["form"]["email"].value;
+   if (!email.includes('@hees.org')) {
+       alert("Email is not valid");
+       return false;
+   }
+   if(textareas.length<=60){
+       text="Please Enter more then 60 characters";
+       error_message.innerHTML= text;
+       return false;
+   }
+   alert("Form Submitted Successfuly");
+   return true;
+
+
+
+
+}

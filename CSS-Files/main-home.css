@@ -1,6 +1,6 @@
 body, html{
     height: 100%;
-    margin:0;
+ margin: 0%;
     
     
   }
@@ -9,7 +9,7 @@ body, html{
     width: 100%;
     height: 1000px;
     overflow: auto;
-    background-image: url("Pictures/jm-dav-muLm0SUrrf4-unsplash.jpg");
+    background-image: url("../Pictures/jm-dav-muLm0SUrrf4-unsplash.jpg");
    background-attachment: fixed;
    background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body, html{
     width: 100%;
     height: 2000px;
     
-    background-image: url("Pictures/Capture.PNG");
+    background-image: url("../Pictures/Capture.PNG");
 }
 
 
