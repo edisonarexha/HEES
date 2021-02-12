@@ -14,10 +14,11 @@ body, html{
 .parallax {
   overflow: auto;
   /* The image used */
-  background-image: url("Pictures/jm-dav-muLm0SUrrf4-unsplash.jpg");
+  background-image: url("../Pictures/jm-dav-muLm0SUrrf4-unsplash.jpg");
  /* opacity: 0.6;*/
   /* Full height */
   height: 100%; 
+  
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -56,7 +57,7 @@ body, html{
 
 .Colored-try-out{
   height: 1000px;
-  background-image: url("Pictures/Capture.PNG");
+  background-image: url("../Pictures/Capture.PNG");
 	width: auto;
 	background-attachment: fixed;
 	background-position: center;
@@ -353,8 +354,8 @@ abbr{
 /*-------------------------------------------------------------------------------New Main-------------------------------------------------------------------*/
 #newmain{
   width: 100%;
-  height: 55<div0%;
-  background-image: url("Pictures/Capture.PNG");
+  height: 4000px;
+  background-image: url("../Pictures/Capture.PNG");
   
 }
 #first-inside-newmain-div{
@@ -386,9 +387,10 @@ abbr{
   display :inline;
 border: 1px solid transparent;
 margin-top: 10%;
-background-image:url("Pictures/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
+background-image:url("../Pictures/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
 background-size: 100% 650px;
 background-blend-mode: color;
+filter: grayscale(10);
 }
 
 #third-inside-newmain-div{
@@ -421,8 +423,9 @@ margin-top: 10%;
   border: 1px solid transparent;
   margin-top: 10%;
   margin-left: -10px;
-  background-image: url("Pictures/jordan-whitt-b8rkmfxZjdU-unsplash.jpg");
+  background-image: url("../Pictures/jordan-whitt-b8rkmfxZjdU-unsplash.jpg");
   background-size: 100% 620px;
+  filter: grayscale(100);
 }
 
 /*------------------------------------------------------H1 Text editing--------------------------------*/
@@ -458,6 +461,7 @@ font-family: 'Inconsolata', monospace;
   height: 620px;
 }
 #h22{
+  font-family: 'Inconsolata', monospace;
   margin-top: 12%;
   float: left;
   display: inline;
@@ -511,7 +515,7 @@ font-family: 'Inconsolata', monospace;
 #smalldiv-footer{
   width: 100%;
   height: 350px;
-  background-image:url("Pictures/Capture.PNG")
+  background-image:url("../Pictures/Capture.PNG")
   
 }
 #text{
