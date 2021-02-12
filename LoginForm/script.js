@@ -5,26 +5,25 @@ function validateForm() {
         alert("Name must be filled out");
         return false;
     }
-
+    
     let email = document.forms["signupForm"]["email"].value;
     if (!email.includes('@hees.org')) {
         alert("Email is not valid");
         return false;
     }
     let username = document.forms["signupForm"]["username"].value;
-if (!username) {
-    alert("Username must be filled out");
-    return false;
-      
+    if (!username) {
+        alert("Username must be filled out");
+        return false;
     }
-  
-     let password = document.forms["signupForm"]["password"].value;
+    let password = document.forms["signupForm"]["password"].value;
     if (!password) {
         alert("Password must be filled out");
         return false;
     }
    
-        return true
+
+    return true
 }
 
 function login() {
@@ -52,3 +51,35 @@ function changeTab(tab) {
         login.style.display = 'none'
     }
 }
+// function submission(tab){
+//     var name = document.getElementByID = "name";
+//     var password = document.getElementByID = "password";
+//     var email = document.getElementById = "email";
+//     var usrname = document.getElementByID = "usrname";
+  
+//     var name = new Array();
+//     var usrname = new Array();
+//     var password = new Array();
+//     var email = new Array();
+//   }
+//   var elementlist=document.getElementsByClassName('login-container');
+
+//   for(var i=0;i<elementlist.length;i++){
+//       elementlist[i].addEventListener('keyup',function(event){
+//           console.log(event)
+
+//           console.log('username is' + usenrameValue);
+//           console.log('password is' + passwordValue);
+//       })
+
+//   }
+// var usrnameValue="";
+// var passwordValue="";
+
+//   var loginObject={
+//       username: "",
+//       password: "",
+
+//   }
+
+
