@@ -513,10 +513,23 @@ font-family: 'Inconsolata', monospace;
   font-size: 17px;
 }
 #smalldiv-footer{
-  width: 100%;
+  /* border: 1px solid white; */
+  width: 50%;
   height: 350px;
-  background-image:url("../Pictures/Capture.PNG")
-  
+  background-image:url("../Pictures/Capture.PNG");
+  float: left;
+  display: inline;
+}
+
+#div-v{
+  /* border: 1px solid white; */
+  height: 350px;
+  width: 50%;
+  float: left;
+  display: inline;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../Pictures/mostafa-meraji-cyEpUehK1cs-unsplash.jpg');
 }
 #text{
   width: 50%;

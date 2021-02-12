@@ -1,0 +1,136 @@
+#aboutusmain{
+    /* border: 1px solid white; */
+    height: 170%;
+    width: 100%;
+    float: left;
+    display: inline;
+    background-color: black;
+}
+
+#aboutustext{
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+#aboutustext1{
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: inline;
+}
+#aboutustext2{
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+#aboutustext3{
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+#min{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 10%;
+    float: left;
+display: inline;
+}
+
+#co{
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#co::first-letter{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#max{
+    /* border: 1px solid white; */
+ 
+    height: 10%;
+    width: 100%;
+    float: left;
+    display: inline;
+}
+#textcolor{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#lorem{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 80%;
+    float: left;
+    display: inline;
+    color: white;
+    text-align: justify;
+
+}
+#te{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#footeriguess{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 70%;
+    float: left;
+    display: inline;
+    background-color: black;
+}
+
+#wy{
+    margin-left: 19%;
+    margin-top: 10%;
+    border: white;
+}
+
+#h{
+    color: white;
+    text-align: center;
+font-size: 50px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+#space12{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 20%;
+    float: left;
+    display: inline;
+    background-color: black;
+}
+
+.parallax1 {
+    overflow: auto;
+    /* The image used */
+    background-image: url("../Pictures/seth-doyle-zf9_yiAekJs-unsplash.jpg");
+   /* opacity: 0.6;*/
+    /* Full height */
+    height: 100%; 
+background-repeat: no-repeat;
+background-size: cover;
+}
