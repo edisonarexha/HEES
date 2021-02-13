@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.admin-container {
+    color: white;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.back-button span {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.back-button span:hover {
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+
+.welcome-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.dashboard-container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.left-list {
+    flex: 1;
+    position: sticky;
+    top: 0;
+}
+.left-list .action-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all .3s ease;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.left-list .action-btn:hover  {
+    background-color: rgba(255,255,255,0.2);
+    border-bottom: 1px solid #ccc;
+}
+.right-box {
+    flex: 4;
+}
+
+.right-box #users-tab {
+    padding: 0 20px 20px;
+}
+
+.right-box #users-tab h1 {
+    margin-top: 0;
+}
+
+.right-box #users-tab .list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.right-box #users-tab .list-item span {
+    flex: 1;
+}
+
+.right-box #users-tab .list-item:hover {
+    background-color: rgba(255,255,255,0.1);
+}
