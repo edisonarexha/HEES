@@ -26,18 +26,18 @@ function validateForm() {
     return true
 }
 
-function login() {
-    let username = document.forms["loginForm"]["username"].value;
-    let password = document.forms["loginForm"]["password"].value;
-    let errorBox = document.getElementById('error-message')
-    if(username==='admin' && password === 'admin123') {
-        window.location.href = '../HomePage.html'
-        return true
-    } else {
-        errorBox.innerHTML = 'Username or password is invalid! Please check credentials.'
-        errorBox.style.display = 'block'
-    }
-}
+// function login() {
+//     let username = document.forms["loginForm"]["username"].value;
+//     let password = document.forms["loginForm"]["password"].value;
+//     let errorBox = document.getElementById('error-message')
+//     if(username==='admin' && password === 'admin123') {
+//         window.location.href = '../HomePage.html'
+//         return true
+//     } else {
+//         errorBox.innerHTML = 'Username or password is invalid! Please check credentials.'
+//         errorBox.style.display = 'block'
+//     }
+// }
 
 
 function changeTab(tab) {

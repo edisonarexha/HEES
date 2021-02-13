@@ -35,7 +35,7 @@
         </div>
         <div id="login">
           <div class="login-container">
-            <form name="loginForm" onSubmit="return false" method="POST">
+            <form name="loginForm" action="logindata.php" method="POST">
               <div class="row">
                 <div class="row" style="padding: 0 20%">
                   <input
@@ -49,7 +49,7 @@
                     placeholder="Password"
                   />
                   <div id="error-message"></div>
-                  <button type="submit" onclick="login()">Login</button>
+                  <button type="submit">Login</button>
                 </div>
                 <div class="row social-media">
                   <a href="#" class="fb">
