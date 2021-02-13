@@ -6,8 +6,8 @@
 <body>
 	<div class="admin-container">
 		<div class="back-button">
-			<span>Back to Home</span>
-			<span>Logout</span>
+			<span onclick="window.location.href='../HTML-Files/HomePage.html'">Back to Home </span>
+			<span onclick="window.location.href='../LoginForm/LogIn.php'">Logout</span>
 		</div>
 		
 		<p class="welcome-text">Welcome!</p>
