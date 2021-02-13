@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS-Files/news.css">
+        
+  <script type="text/javascript" src="../JavaScript-Files/Homepage.js"></script>
+
+
+  <title>
+    HEES
+</title>
+
+<!---------------------------------------------------------------------------------------->
+
+              <!----------------Google Fonts------------------------------->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+
+
+    </head>
+    <body>
+        <div id="divipare">
+            <div id="navbar">
+                <a href="HomePage.php"id="button-form">Home</a>
+                <a href="#" id="button-form1">News</a>
+                <a href="Aboutus.html" id="button-form1">About   us</a>
+                <a href="contact.php" id="button-form1">Contact</a>
+                <div class="right">
+                    <div class="logout" onclick="window.location.href='../index.php'">Logout</div>
+                </div>
+            </div>
+        </div>
+    <div>
+       
+<!----------------------Testing this -->
+        <div id='main-div'>
+
+
+
+
+        </div>
+        <div id="space-div">
+
+            <h1 id="style-h1">
+                Blog me!!!
+            </h1>
+
+        </div>
+        <div id="second-div">
+            <div id="float-right-id">
+                    <div id="photos-writer">
+                    </div>
+                    <br>
+                    <div id="Autori">
+                            <H6>
+                                Autori/Autorja:Erestina Bytyqi
+                            </H6>
+                    </div>
+                    <br>
+               <div id="new-autori-div">
+                <p id="color-a">
+                    Hello, I am Erestina Bytyqi , I have some words to say but first let me tell you that i work on this website with some quite a lot of other people. We want to give everyone a lot of comfort. All you need to do is to say something about what you want.In this website we want to show how much we care about the life, of other people. A lot of people lives on poverty and we are not happy about that. I work as a free voluenteer for as long as i can remember by now. This and more of these things are shown in the About us page if you want to see more please click the About us button. Thank you and please keep the great work , if we want to see how much we care about the world this is the only way we can do this.
+
+
+                </p>
+               </div>
+
+
+                </div>
+
+            <div id="pictures-div">
+
+            </div>
+            <div id="title-div">
+                <h2 id="ngjyra">
+                    Happiness is something every child needs
+                </h2>
+            </div>   
+            <br>         
+            <div id="username-div">
+                <p id="po">Erestine Bytyqi -11/2/2021-Prishtine</p>
+            </div>
+            <br>
+            <div id="comment-box">
+<p id="po1">
+    Seven types of evidence are reviewed that indicate that high subjective well-beign causes a helthier life and a better health and longlitivity.     For examples , prospective .Philosophy of happiness is often discussed in conjunction with ethics. Traditional European societies, inherited from the Greeks and from Christianity, often linked happiness with morality, which was concerned with the performance in a certain kind of role in a certain kind of social life. However, with the rise of individualism, begotten partly by Protestantism and capitalism, the links between duty in a society and happiness were gradually broken. The consequence was a redefinition of the moral terms. Happiness is no longer defined in relation to social life, but in terms of individual psychology. Happiness, however, remains a difficult term for moral philosophy. Throughout the history of moral philosophy, there has been an oscillation between attempts to define morality in terms of consequences leading to happiness and attempts to define morality in terms that have nothing to do with happiness at all
+</p>    
+            </div>
+
+
+        </div>
+          
+
+
+
+
+
+
+     
+    </body>
+</html>

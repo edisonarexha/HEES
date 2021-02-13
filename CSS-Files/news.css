@@ -232,6 +232,15 @@ body, html{
       width: 100%; /* Full width */
       transition: top 0.3s; /* Transition effect when sliding down (and up) */
     }
+
+    #navbar .right {
+      float: right;
+      border: 1px solid;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
     
        #button-form{
          /* border: 2px solid black; */

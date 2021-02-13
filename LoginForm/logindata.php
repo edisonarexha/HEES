@@ -22,7 +22,7 @@ if ($conn->connect_error) {
         if (isset($res) && $res == 'admin') {
             header('Location: ../Admin/admin.php');
         } elseif( isset($res) && ($res == 'Ambasador' || $res == 'Donator')) {
-            header('Location: ../HTML-Files/HomePage.html');
+            header('Location: ../HTML-Files/HomePage.php');
         } else {
             echo "Please enter valid username and password";
             echo "<button onclick=\"window.location.href='./LogIn.php'\">Go Back</button>";

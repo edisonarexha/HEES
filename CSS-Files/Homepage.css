@@ -25,18 +25,7 @@ body, html{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#second-div-using-parallax-version-2{
-  /* background-color: #161616; 
-  background-image: url("Pictures/Capture.PNG");*/
-  height: 1060px;
-  overflow: auto;
-	width: auto;
-	 /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: auto;
-}
+
 #inside-div-second{
 	height: 600px;
 	width: 60%;
@@ -75,6 +64,15 @@ body, html{
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+#navbar .right {
+  float: right;
+  border: 1px solid;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
 
    #button-form{
      /* border: 2px solid black; */
@@ -166,7 +164,7 @@ body, html{
   height: 509px;
   position: relative;
   top: 20%;
-  left: 30%;
+  margin: 0 auto;
  
 
 }
@@ -177,12 +175,10 @@ body, html{
   font-size: 3cm;
   margin-bottom: 0%;
   margin-top:18.8%;
-  margin-left: 10%;
   text-align:center;
 }
 #second-title{
   color: white;
-  margin-left: 12%;
   text-align: center;
 }
 
@@ -197,23 +193,14 @@ body, html{
   color: white;
 
 }
-#button-more-v1{
+
+.more-btn {
+  text-align: center;
+}
+#button-more {
   width: 2.8cm;
   height: 1cm; 
-  flex-direction: row;
-  flex: auto;
-  background: transparent;
-  border:2px solid white;
-  color: white;
- float: left;
-  position: relative;
-  top: 10cm;
-  left:30cm;
-}
-#button-more{
- width: 2.8cm;
-  height: 1cm; 
-  margin-left:4.2cm;
+  margin:auto;
   flex-direction: row;
   flex: auto;
   background: transparent;
@@ -354,194 +341,43 @@ abbr{
 /*-------------------------------------------------------------------------------New Main-------------------------------------------------------------------*/
 #newmain{
   width: 100%;
-  height: 4000px;
   background-image: url("../Pictures/Capture.PNG");
-  
 }
-#first-inside-newmain-div{
-  border: 1px solid transparent;
-  width: 100%;
-  height: 900px;
+#footer {
+  display: flex;
 }
-#first-div-inside{
-  box-sizing: border-box;
-  margin-top: 7%;
-  width: 60%;
-  height: 600px;
-  float: left;
-  display: inline;
-  border: 1px solid transparent;
+.text-side, .img-box {
+  flex: 1;
 }
-#second-inside-newmain-div{
-  width: 100%;
-  height: 900px;
-  border: 1px solid transparent;
-
+.text-side img {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  background: rgba(255,255,255, 0.1);
+  border-radius: 50%;
 }
-
-#second-div-inside{
-  box-sizing: border-box;
-  width: 60%;
-  height: 600px;
-  float: right;
-  display :inline;
-border: 1px solid transparent;
-margin-top: 10%;
-background-image:url("../Pictures/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
-background-size: 100% 650px;
-background-blend-mode: color;
-filter: grayscale(10);
+.text-side img:hover {
+  background: rgba(255,255,255, 0.3);
+  cursor: pointer;
+}
+.text-side ul {
+  list-style: none;
+}
+.text-side ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-#third-inside-newmain-div{
-  width: 100%;
-  height: 900px;
-  border: 1px solid transparent;
-}
-#third-inside-div{
-box-sizing: border-box;
-width: 60%;
-height: 600px;
-float: left;
-display: inline;
-border: 1px solid transparent;
-margin-top: 10%;
-  
-}
-#fourth-inside-newmain-div{
-  width: 100%;
-  height: 900px;
-  border: 1px solid transparent;
-
-}
-#fourth-inside-div{
-  width: 60%;
-  height: 620px;
-  box-sizing: border-box;
-  float: right;
-  display: inline;
-  border: 1px solid transparent;
-  margin-top: 10%;
-  margin-left: -10px;
-  background-image: url("../Pictures/jordan-whitt-b8rkmfxZjdU-unsplash.jpg");
-  background-size: 100% 620px;
-  filter: grayscale(100);
-}
-
-/*------------------------------------------------------H1 Text editing--------------------------------*/
-
-#h11{
-  margin-top:10%;
-  padding-left: 65%;
-  font-family: 'Inconsolata', monospace;
-  color: white;
-
-}
-#a1{
-  margin-left: 65%;
-  margin-right: 5%;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
-  text-align: justify;
-  color: white;
-}
-
-#first-link{
- border: 1px solid white;
- padding: 10px 30px;
- float:right;
- text-decoration: none;
- color :white;
-font-family: 'Inconsolata', monospace;
- margin-right: 20px;
-}
-.imgwidth{
-  width: 100%;
-  filter: grayscale(100);
-  height: 620px;
-}
-#h22{
-  font-family: 'Inconsolata', monospace;
-  margin-top: 12%;
-  float: left;
-  display: inline;
-  padding-left: 10%;
-  color: white;
-}
-#p1{
-  display: inline;
-  float: left;
-  margin-right: 70%;
-  margin-top: 0;
-  position: absolute;
-  top: 245%;
-  left: 5%;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
-  text-align: justify;
-  color: white;
-}
-#first-link1{
-  border: 1px solid white;
-  padding: 10px 30px;
-  float:right;
-  text-decoration: none;
-  color :white;
- font-family: 'Inconsolata', monospace;
-  margin-right: 20px;
-  position: absolute;
-  top: 300%;
-  left: 5%;
- }
-#second-link1{
-  border: 1px solid white;
- padding: 10px 30px;
- float:left;
- text-decoration: none;
- color :white;
-font-family: 'Inconsolata', monospace;
- margin-right: 20px;
- margin-left: 5%;
-}
-#p12{
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: bold;
-  text-align: justify;
-  margin-left: 5%;
-  margin-right: 66%;
-  color: white;
-  font-size: 17px;
-}
-#smalldiv-footer{
-  /* border: 1px solid white; */
-  width: 50%;
-  height: 350px;
-  background-image:url("../Pictures/Capture.PNG");
-  float: left;
-  display: inline;
-}
-
-#div-v{
-  /* border: 1px solid white; */
-  height: 350px;
-  width: 50%;
-  float: left;
-  display: inline;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('../Pictures/mostafa-meraji-cyEpUehK1cs-unsplash.jpg');
-}
 #text{
   width: 50%;
   height: 350px;
   border: 1px solid black;
-
-
 }
 #adres{
   font-family: 'JetBrains Mono', monospace;
   margin-left: 20px;
-color: white;
+  color: white;
 }
 #aboutus{
   font-family: 'JetBrains Mono', monospace;
@@ -559,10 +395,10 @@ color: white;
   text-decoration: none;
   
 }
-img{
+/* img{
 filter: grayscale(0);
 filter:invert(100);
-}
+} */
 #trying
 {
   /* border:1px solid black; */
@@ -572,20 +408,56 @@ filter:invert(100);
   float:right;
 }
 
-#imga{
-margin-top:-1px;
-  width:380px;
-height:340px;
+ 
+.right-text-box, .left-text-box {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-family: 'Inconsolata', monospace;
 }
 
-#imga1{
-  margin-top:-1px;
-    width:380px;
-  height:340px;
-  }
-  /* #padin{
-    padding: 10px;
-    width: auto;
-    height: 16px;
-    margin-right: 20px;
-  } */
+.right-text-box p, .left-text-box p {
+  padding-bottom: 20px;
+}
+
+.text-box {
+  flex: 1;
+  padding: 2em;
+}
+
+.image-box {
+  flex: 2;
+  padding: 2em;
+}
+
+.right-text-box  {
+  flex: 1;
+}
+
+.read-more-wrapper {
+  display: flex;
+}
+
+.right-text-box .read-more-wrapper{
+  justify-content: flex-end;
+}
+
+.read-more-btn {
+  border: 1px solid #ddd;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  transition: all .3s ease;
+}
+
+.filtered {
+  filter: grayscale(100);
+}
+
+.read-more-btn:hover{ 
+  background-color: rgba(255,255,255,0.1);
+  border-color: white;
+}
+
+
