@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -74,6 +79,7 @@
           <form 
             name="signupForm"
             action="insert.php"
+            onsubmit="return validateForm()"
             method="POST"
           >
             <div class="sign-up-wrapper">
@@ -100,17 +106,14 @@
                 <datalist id="browsers">
                   <option value="Ambasador" >
                   <option value="Donator" >
-                  
                 </datalist>
                
                 <div class="checkbox">
-                  
-                </div>
                 </div>
               </div>
+              </div>
               <div class="sign-up-button-row">
-              <!-- onclick="Signup()" -->
-                <button type="submit" >Sign up</button>
+                <button type="submit">Sign up</button>
               </div>
             </div>
           </form>

@@ -1,25 +1,24 @@
 function validateForm() {
-    console.log('validate form');
     let name = document.forms["signupForm"]["name"].value;
     if (!name) {
         alert("Name must be filled out");
-        return false;
+        preventDefault()
     }
     
     let email = document.forms["signupForm"]["email"].value;
     if (!email.includes('@hees.org')) {
         alert("Email is not valid");
-        return false;
+        preventDefault()
     }
     let username = document.forms["signupForm"]["username"].value;
     if (!username) {
         alert("Username must be filled out");
-        return false;
+        preventDefault()
     }
     let password = document.forms["signupForm"]["password"].value;
     if (!password) {
         alert("Password must be filled out");
-        return false;
+        preventDefault()
     }
    
 

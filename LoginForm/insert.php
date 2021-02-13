@@ -24,47 +24,16 @@ if (!empty($name) || !empty($email) || !empty($username) || !empty($password) ||
         die("Connection failed: " . $conn->connect_error);
     } else {
         
-        // $SELECT = "SELECT username From signup Where username = ? Limit = 1";
+        // $SELECT = "SELECT username From users Where username = ? Limit = 1";
         $uuid = guidv4();
-        $INSERT = "INSERT INTO signup (id, name, email, username, password, role) VALUES ('$uuid', '$name', '$email', '$username', '$password', '$role')";
+        $INSERT = "INSERT INTO users (id, name, email, username, password, role) VALUES ('$uuid', '$name', '$email', '$username', '$password', '$role')";
         if ($conn->query($INSERT) === TRUE) {
-            echo "New record created successfully";
+            header('Location: ../HTML-Files/HomePage.html');
         } else {
             echo "Error: " . $INSERT . "<br>" . $conn->error;
         }
         $conn->close();
     }
 }
-    
-//         $stmt = $conn -> prepare ($SELECT);
-//         $stmt->bind_param("s");
-//         $stmt->execute();
-//         $stmt->bind_result($username);
-//         $stmt->store_result();
-//         $rnum = $stmt->num_rows;
-
-//         if($rnum==0){
-//             $stmt->close();
-
-//             $stmt = $conn->prepare($INSERT);
-//             $stmt->bind_param(111, $name, $email, $username, $password, $role);
-//             $stmt->execute();
-
-//             echo "New record is inserted sucessfully";
-
-//         } else {
-//             echo "Someone already register using this username";
-//         }
-//         $stmt->close();
-//         $conn->close();
-    
-    
-//     }
-    
-// }else {
-//         echo "All fields required" ; 
-//         die();
-    
-//     } 
 ?>
 
