@@ -4,6 +4,7 @@
 	<title>
 		HEES
 	</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
   <!-------------Path to differnet CSS/JS CODE-------------------------------------------->
 
 
@@ -43,9 +44,9 @@
 <body >
 <div class="parallax1">
 <div id="navbar">
-<?php if(isset($_COOKIE['logedInUser'])) {?><a href="HomePage.php" id="button-form">Home</a><?php }?>
+    <?php if(isset($_COOKIE['logedInUser'])) {?><a href="HomePage.php" id="button-form">Home</a><?php }?>
     <?php if(!isset($_COOKIE['logedInUser'])) {?><a href="../index.php" id="button-form">Home</a><?php }?>
-    <?php if(isset($_COOKIE['logedInUser'])) {?><a href="News.php" id="button-form1">News</a><?php }?>
+    <a href="News.php" id="button-form1">News</a>
   <a href="#" id="button-form1">About   us</a>
   <a href="contact.php" id="button-form1">Contact</a>
 </div>
@@ -105,7 +106,7 @@ point of using Lorem Ipsum is that it has
     </div>
 
     <div id="footeriguess">
-        <iframe width="1019" height="573" src="https://www.youtube.com/embed/LYNTWBaNqm8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="wy"></iframe>
+        <iframe width="100%" height="573" src="https://www.youtube.com/embed/LYNTWBaNqm8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="wy"></iframe>
       <h4 id="h"> Hello Its me Sonia</h4>
        
 </div>

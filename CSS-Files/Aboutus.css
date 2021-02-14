@@ -1,41 +1,38 @@
 #aboutusmain{
-    /* border: 1px solid white; */
-    height: 170%;
     width: 100%;
-    float: left;
-    display: inline;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #aboutustext{
     /* border: 1px solid white; */
     height: 100%;
     width: 25%;
-    float: left;
     display: inline;
+    flex: 1;
 }
 
 #aboutustext1{
     /* border: 1px solid white; */
     height: 100%;
     width: 25%;
-    float: left;
     display: inline;
+    flex: 1;
 }
 #aboutustext2{
     /* border: 1px solid white; */
     height: 100%;
     width: 25%;
-    float: left;
     display: inline;
+    flex: 1;
 }
 
 #aboutustext3{
-    /* border: 1px solid white; */
     height: 100%;
     width: 25%;
-    float: left;
     display: inline;
+    flex: 1;
 }
 
 #min{
@@ -103,8 +100,8 @@ display: inline;
 }
 
 #wy{
-    margin-left: 19%;
-    margin-top: 10%;
+    padding: 20px;
+    margin: auto;
     border: white;
 }
 
@@ -133,4 +130,15 @@ font-family: 'Ubuntu', sans-serif;
     height: 100%; 
 background-repeat: no-repeat;
 background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    #aboutustext, #aboutustext1, #aboutustext2, #aboutustext3 {
+      min-width: 50%;
+    }
+
+    #wy {
+        padding: 10px;
+        margin: 0;
+    }
+
 }

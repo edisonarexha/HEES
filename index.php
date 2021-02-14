@@ -85,7 +85,7 @@
           at the most of ‘moral rights’), without any further qualifications
         </p>
         <div class="read-more-wrapper">
-          <a href="./HTML-Files/HomePageDivs/HomePageMainDIV.HTML" class="read-more-btn">Read More</a>
+          <a href="./HTML-Files/HomePageDivs/HomePageMainDIV.php" class="read-more-btn">Read More</a>
         </div>
       </div>
     </div>
@@ -104,7 +104,7 @@
             higher when both are operationalized as domain-specific rather than domain-general (e.g.,
           </p>
           <div class="read-more-wrapper">
-            <a href="./HTML-Files/HomePageDivs/HomePage1div2.html" class="read-more-btn">Read More</a>
+            <a href="./HTML-Files/HomePageDivs/HomePage1div2.php" class="read-more-btn">Read More</a>
           </div>
       </div>
       <div class="image-box">
@@ -130,7 +130,7 @@
           every aspect of the employee’s life.
         </p>
         <div class="read-more-wrapper">
-          <a href="./HTML-Files/HomePageDivs/Homepagediv3.html" class="read-more-btn">Read More</a>
+          <a href="./HTML-Files/HomePageDivs/Homepagediv3.php" class="read-more-btn">Read More</a>
         </div>
       </div>
     </div>
@@ -148,7 +148,7 @@
           well as near, is a central feature of the theory of human rights proposed here.
         </p>
         <div class="read-more-wrapper">
-          <a href="./HTML-Files/HomePageDivs/Homepage1div4.html" class="read-more-btn">Read More</a>
+          <a href="./HTML-Files/HomePageDivs/Homepage1div4.php" class="read-more-btn">Read More</a>
         </div>
       </div>
       <div class="image-box">
