@@ -40,7 +40,7 @@
 <div id="navbar">
   <a href="#"id="button-form">Home</a>
   <a href="News.php" id="button-form1">News</a>
-  <a href="Aboutus.html" id="button-form1">About us</a>
+  <a href="Aboutus.php" id="button-form1">About us</a>
   <a href="contact.php" id="button-form1">Contact</a>
   <div class="right">
     <div class="logout" onclick="window.location.href='../LoginForm/LogIn.php'">Logout</div>

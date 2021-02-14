@@ -43,9 +43,11 @@
 <body >
 <div class="parallax1">
 <div id="navbar">
+    <?php if(isset($_COOKIE['logedInUser'])) {?><a href="HomePage.php" id="button-form">Home</a><?php }?>
+    <?php if(!isset($_COOKIE['logedInUser'])) {?><a href="../index.php" id="button-form">Home</a><?php }?>
   <a href="HomePage.php"id="button-form">Home</a>
   <a href="News.php" id="button-form1">News</a>
-  <a href="Aboutus.html" id="button-form1">About   us</a>
+  <a href="#" id="button-form1">About   us</a>
   <a href="contact.php" id="button-form1">Contact</a>
 </div>
 </div>

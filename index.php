@@ -42,7 +42,7 @@
   <div class="parallax">
     <div id="navbar">
       <a href="#" id="button-form">Home</a>
-      <a href="./HTML-Files/Aboutus.html" id="button-form1">About us</a>
+      <a href="./HTML-Files/Aboutus.php" id="button-form1">About us</a>
       <a href="./HTML-Files/contact.php" id="button-form1">Contact</a>
     </div>
     <div id="new-div-title">
