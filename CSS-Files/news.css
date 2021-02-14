@@ -289,5 +289,13 @@ body, html{
       color: black;
     }
     /*-------------------------------------------------------------------------*/
-      
+    
+    .all-news {
+      color: white;
+      margin: 5%;
+
+    }
+    .all-news h2 {
+      font-family: 'Special Elite', cursive;
+    }
   

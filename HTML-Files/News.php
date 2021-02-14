@@ -53,10 +53,6 @@
        
 <!----------------------Testing this -->
         <div id='main-div'>
-
-
-
-
         </div>
         <div id="space-div">
 
@@ -109,7 +105,24 @@
 
         </div>
           
+<div class="all-news">
+    <?php
+                $dbc = mysqli_connect('localhost', 'root','', 'hees') or die("Gabim gjat lidhjes.");
 
+                $query = "SELECT * FROM news";
+                $result=mysqli_query($dbc,$query);
+                while ($row = mysqli_fetch_array($result)) {?>
+                    <div class="list-item">
+                        <div class="img">
+                            <img src=<?php echo 'data:image/jpeg;base64,'.base64_encode($row['photo']); ?> />
+                        </div>
+                        <h2><?php echo $row['title']; ?></h2>
+                        <span> <?php echo $row['date']; ?></span>
+                        <div> <?php echo $row['message']; ?></div>    
+                    </div>";
+
+                <?php }?>
+</div>
 
 
 
