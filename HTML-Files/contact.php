@@ -20,10 +20,10 @@
   </head>
   <body>
     <div id="navbar">
-        <a href="HomePage.html"id="button-form">Home</a>
-        <a href="News.html" id="button-form1">News</a>
+        <a href="HomePage.php"id="button-form">Home</a>
+        <a href="News.php" id="button-form1">News</a>
         <a href="Aboutus.html" id="button-form1">About us</a>
-        <a href="contact.html" id="button-form1">Contact </a>
+        <a href="contact.php" id="button-form1">Contact </a>
       </div>
 
       <div id="contact-me-div">
@@ -84,9 +84,7 @@
       </audio>
     </div>
 
-
-
-          </div>
+    </div>
 
               <div>
                 <div id="error">
@@ -102,18 +100,19 @@
               </div>
 
 
+                  <div id="test2" style="color: aliceblue;">
+                    <div id="error_message"></div>
+                    
+                      <form name="form"
+                          action="insert.php"
+                          onsubmit="return validateForm()"
+                          method="POST" >
 
-
-
-              <div id="test2" style="color: aliceblue;">
-                <div id="error_message"></div>
-    <form id="form" onsubmit="return validation()" >
-  
-      <h3 id="name1">Name:</h3><input type="text" placeholder="name" class="si" id="name12" aria-required="true" required>
-    <h3 id="surname1" >
-    Surname:</h3><input type="text" placeholder="surname "class="si" id="surname" aria-required="true" required>
-    <h3 id="email1">Email:</h3><input type="text" placeholder="Email" class="si" id="email"aria-required="true" required>
-    <h3 id="subject1">Subject:</h3> <input type="text" placeholder="Subject" class="si" id="subject"aria-required="true" required>
+                        <h3 id="name1">Name:</h3><input type="text" placeholder="name" class="si" id="name12" aria-required="true" required>
+                          <h3 id="surname1" >
+                           Surname:</h3><input type="text" placeholder="surname "class="si" id="surname" aria-required="true" required>
+                           <h3 id="email1">Email:</h3><input type="text" placeholder="Email" class="si" id="email"aria-required="true" required>
+                          <h3 id="subject1">Subject:</h3> <input type="text" placeholder="Subject" class="si" id="subject"aria-required="true" required>
     
                 <div>
                 <h3 id="text23">Your Comment:</h3><textarea rows="15" cols="70" form="form" id="textareas"></textarea>

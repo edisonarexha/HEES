@@ -1,28 +1,4 @@
-// const styleinput =document.getElementById('styleinput')
-// const styleinput2 =document.getElementById('styleinput2')
-// const form =document.getElementById('form1')
-// const errorElement = document.getElementById('error')
-// form.addEventListener('submit', (e) =>
-// {
-//     let messages= []
-//     if(styleinput.value === ' ' || styleinput.value == null){
-//         messages.push('Name is Required')
-//     }
 
-//         if(styleinput2.length <=3){
-//             messages.push('Write Your full Surname Please')
-//         }
-
-
-
-
-
-//     if(messages.length>0){
-//         e.preventDefault()
-//         errorElement.innerText = messages.join (', ')
-//     }
-   
-// })
 
 function validation(){
   var name12 = document.getElementById('name12').value;
