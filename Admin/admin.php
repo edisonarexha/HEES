@@ -1,7 +1,4 @@
-
-
-
-
+<?php if(!isset($_COOKIE['logedInUser'])) { header('Location: ../LoginForm/LogIn.php'); }  else { ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -151,3 +148,4 @@ margin-left:2%;
 	<script src="admin.js"></script>
 </body>
 </html>
+<?php }?>
