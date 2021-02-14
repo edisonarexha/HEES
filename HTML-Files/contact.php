@@ -88,14 +88,6 @@
 
           </div>
 
-
-
-
-
-
-
-
-
               <div>
                 <div id="error">
 
