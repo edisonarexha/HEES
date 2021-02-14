@@ -1,3 +1,4 @@
+<?php if(!isset($_COOKIE['logedInUser'])) { header('Location: ../LoginForm/LogIn.php'); }  else { ?>
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../CSS-Files/news.css">
@@ -92,3 +93,4 @@
      
     </body>
 </html>
+<?php }?>
