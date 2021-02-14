@@ -43,7 +43,7 @@
   <a href="Aboutus.html" id="button-form1">About us</a>
   <a href="contact.php" id="button-form1">Contact</a>
   <div class="right">
-    <div class="logout" onclick="window.location.href='../index.php'">Logout</div>
+    <div class="logout" onclick="window.location.href='../LoginForm/LogIn.php'">Logout</div>
   </div>
 </div>
 <div id="new-div-title">

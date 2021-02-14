@@ -30,8 +30,8 @@ if(surname<2){
        error_message.innerHTML= text;
        return false;
    }
-   let email = document.forms["form"]["email"].value;
-   if (!email.includes('@hees.org')) {
+   let _email = document.forms["form"]["email"].value;
+   if (!_email.includes('@hees.org')) {
        alert("Email is not valid");
        return false;
    }

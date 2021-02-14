@@ -1,4 +1,5 @@
 <?php
+
 $name = $_POST['name'];
 $surname = $_POST ['surname'];
 $email = $_POST['email'];
@@ -28,7 +29,7 @@ if (!empty($name) || !empty($surname) || !empty($email) || !empty($subject) || !
         $uuid = guidv4();
         $INSERT = "INSERT INTO contact (id, name, surname, email, subject, comment) VALUES ('$uuid', '$name','$surname', '$email', '$subject', '$comment')";
         if ($conn->query($INSERT) === TRUE) {
-            header('Location: ./index.php');
+            header('Location: ../index.php');
         } else {
             echo "Error: " . $INSERT . "<br>" . $conn->error;
         }

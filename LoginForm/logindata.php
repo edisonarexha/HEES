@@ -17,11 +17,14 @@ if ($conn->connect_error) {
         $res;
         while($obj = $result->fetch_object()) {
             $res = $obj->role;
+            $userId = $obj->id;
         }
 
         if (isset($res) && $res == 'admin') {
+            setcookie("logedInUser", $userId, '', '/');
             header('Location: ../Admin/admin.php');
         } elseif( isset($res) && ($res == 'Ambasador' || $res == 'Donator')) {
+            setcookie("logedInUser", $userId, '', '/');
             header('Location: ../HTML-Files/HomePage.php');
         } else {
             echo "<div class=\"non-login-screen\">";

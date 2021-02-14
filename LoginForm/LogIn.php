@@ -28,7 +28,7 @@ session_start();
   </head>
 
   <body>
-
+    <?php setcookie('logedInUser', null, '', '/')?>
     <div class="container">
       <div class="pannel">
         <div class="centered">

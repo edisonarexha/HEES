@@ -1,3 +1,4 @@
+<?php if(isset($_COOKIE['logedInUser'])) { setcookie('logedInUser', null, -1, '/'); } ?>
 <!DOCTYPE html>
 <html>
 
