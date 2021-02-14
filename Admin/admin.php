@@ -21,7 +21,7 @@
 				<div id="users-tab">
 					<h1>Users-List</h1>
 					<?php
-						$dbc = mysqli_connect('localhost', 'root','', 'database') or die("Gabim gjat lidhjes.");
+						$dbc = mysqli_connect('localhost', 'root','', 'hees') or die("Gabim gjat lidhjes.");
 
 						$query = "SELECT * FROM users";
 						$result=mysqli_query($dbc,$query);

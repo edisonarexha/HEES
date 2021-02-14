@@ -17,7 +17,7 @@ if (!empty($name) || !empty($email) || !empty($username) || !empty($password) ||
     $host = "localhost";
     $dbUsername = "root";
     $dbPassword = "";
-    $dbname = "registerform";
+    $dbname = "hees";
 
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if ($conn->connect_error) {
@@ -28,7 +28,7 @@ if (!empty($name) || !empty($email) || !empty($username) || !empty($password) ||
         $uuid = guidv4();
         $INSERT = "INSERT INTO users (id, name, email, username, password, role) VALUES ('$uuid', '$name', '$email', '$username', '$password', '$role')";
         if ($conn->query($INSERT) === TRUE) {
-            header('Location: ../HTML-Files/HomePage.html');
+            header('Location: ../HTML-Files/HomePage.php');
         } else {
             echo "Error: " . $INSERT . "<br>" . $conn->error;
         }

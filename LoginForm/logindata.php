@@ -6,7 +6,7 @@ $password =$_POST['password'];
 $host = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbname = "database";
+$dbname = "hees";
 
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 if ($conn->connect_error) {
@@ -24,8 +24,10 @@ if ($conn->connect_error) {
         } elseif( isset($res) && ($res == 'Ambasador' || $res == 'Donator')) {
             header('Location: ../HTML-Files/HomePage.php');
         } else {
-            echo "Please enter valid username and password";
+            echo "<div class=\"non-login-screen\">";
+            echo "<p>Please enter valid username and password</p>";
             echo "<button onclick=\"window.location.href='./LogIn.php'\">Go Back</button>";
+            echo "</div>";
         }
         $result->close();
     } else {
