@@ -99,7 +99,6 @@ h1::first-letter{
  top:8%;
   left: 21%;
   /* border:1px solid white; */
-  width: 1000px;  
   height: 700px;
   color: black;
 
@@ -116,7 +115,6 @@ h1::first-letter{
 .line-1{
   position: relative;
   top: 50%;  
-  width: 24em;
   margin: 0 auto;
   border-right: 2px solid rgba(255,255,255,.75);
   font-size: 180%;
@@ -135,7 +133,7 @@ animation: typewriter 4s steps(50) 1s 1 normal both,
 }
 @keyframes typewriter{
 from{width: 0;}
-to{width: 24em;}
+to{width: 100%;}
 }
 @keyframes blinkTextCursor{
 from{border-right-color: rgba(255,255,255,.75);}
@@ -201,8 +199,22 @@ margin-top: 20px;
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-.leftcolumn, .rightcolumn {   
-  width: 100%;
-  padding: 0;
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
 }
+
+
+@media only screen and (max-width: 768px) {
+  #position {
+    left: 10px;
+  }
+  #navbar a {
+    min-width: 24%;
+  }
+
+  #main h1 {
+    padding-left: 10%;
+  }
 }

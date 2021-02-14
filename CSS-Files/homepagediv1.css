@@ -17,7 +17,7 @@ body, html{
 }
 #main{
     width: 100%;
-    height: 2000px;
+    /* height: 2000px; */
     
     background-image: url("../Pictures/Capture.PNG");
 }
@@ -95,16 +95,14 @@ body, html{
    margin-right: 10%;
  }
  #position{
-   position: absolute;
-   top:8%;
-    left: 21%;
-    /* border:1px solid white; */
-    width: 1000px;  
-    height: 700px;
-    color: black;
-  
-  
-  }
+  position: absolute;
+  top:8%;
+ left: 21%;
+ height: 700px;
+ color: black;
+ 
+ 
+ }
 
 
   /* Google Fonts */
@@ -115,8 +113,7 @@ body, html{
 
 .line-1{
     position: relative;
-    top: 50%;  
-    width: 24em;
+    top: 50%;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
@@ -135,9 +132,29 @@ body, html{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 100%;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+@media only screen and (max-width: 768px) {
+  #position {
+    left: 10px;
+  }
+
+  #main h1 {
+    padding-left: 10%;
+  }
+  .line-1 {
+    
+    white-space: pre-wrap;
+    overflow: hidden;
+  }
+
+  
+  #navbar a {
+    min-width: 24%;
+  }
+
 }

@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../../CSS-Files/homepagediv2.css">
         <link rel="stylesheet" type="text/css" href="../../CSS-Files/Homepage.css">
         <!-- <script type="text/javascript" src="Homepage.js"></script> -->
-
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
 
         <!-- codes to be used for different fonts in this page-->
         <link rel="preconnect" href="https://fonts.gstatic.com">

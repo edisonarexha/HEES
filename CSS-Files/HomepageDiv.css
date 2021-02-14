@@ -1,8 +1,6 @@
 body, html{
     height: 100%;
     margin:0;
-    
-    
   }
   
 #header{
@@ -97,11 +95,9 @@ body, html{
  #position{
    position: absolute;
    top:8%;
-    left: 21%;
-    /* border:1px solid white; */
-    width: 1000px;  
-    height: 700px;
-    color: black;
+  left: 21%;
+  height: 700px;
+  color: black;
   
   
   }
@@ -135,9 +131,27 @@ body, html{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 100%;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+@media only screen and (max-width: 768px) {
+  #position {
+    left: 10px;
+  }
+  #navbar a {
+    min-width: 24%;
+  }
+
+  #main h1 {
+    padding-left: 10%;
+  }
+  .line-1 {
+    
+    white-space: pre-wrap;
+    overflow: hidden;
+  }
 }
