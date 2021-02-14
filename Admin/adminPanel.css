@@ -80,39 +80,3 @@ body {
 }
 
 
-.right-box #users-tab .list-item {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-}
-.right-box #users-tab .list-item span {
-    flex: 1;
-}
-
-.right-box #users-tab .list-item:hover {
-    background-color: rgba(255,255,255,0.1);
-}
-.right-box #trend-tab {
-    padding: 0 20px 20px;
-}
-
-.right-box #trend-tab h1 {
-    margin-top: 0;
-}
-
-.right-box #trend-tab .list-item {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-}
-.right-box #trend-tab .list-item span {
-    flex: 1;
-}
-
-.right-box #trend-tab .list-item:hover {
-    background-color: rgba(255,255,255,0.1);
-}
-
-.right-box .list-item.header{
-    font-weight: bold;
-}

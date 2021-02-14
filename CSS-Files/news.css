@@ -9,7 +9,7 @@ body, html{
   }
   
   #space-div{
-  /* border: 1px solid white; */
+   /*border: 1px solid white; */
   width: 100%;
   height: 20%;
   
@@ -45,16 +45,16 @@ body, html{
   
   
   #float-right-id{
-  
-  /* border: 1px solid white; */
-  float: right;
+/*  
+   border: 1px solid white; 
+*/  float: right;
   display: inline;
   width: 34%;
   height:70%;
   }
   
   #photos-writer{
-  /* border: 1px solid white; */
+   /*border: 1px solid white; */
   width: 70%;
   height: 40%;
   float: right;
@@ -67,7 +67,7 @@ body, html{
   }
   
   #Autori{
-    /* border: 1px solid white; */
+     /*border: 1px solid white; */
     width: 50%;
     height: 8%;
     float: left;
@@ -103,8 +103,8 @@ body, html{
   
   #main-div{
   
-    /* border: 1px solid white; */
-    height: 90%;
+     /*border: 1px solid white; 
+*/    height: 90%;
     width: 100%;
     background-image: url('../Pictures//doug-linstedt-jEEYZsaxbH4-unsplash.jpg');
     background-size: cover;
@@ -113,14 +113,14 @@ body, html{
   }
   
   #second-div{
-    /* border: 1px solid white; */
+     /*border: 1px solid white;*/ 
     height:150%;
     width: 100%;
   
   }
   #pictures-div{
-  /* border: 1px solid white; */
-  height: 60%;
+/*   border: 1px solid white; 
+*/  height: 60%;
   width: 60%;
   margin-left: 5%;
   margin-top:5%;
@@ -129,7 +129,7 @@ body, html{
   
   }
   #title-div{
-    /* border: 1px solid white; */
+     border: 1px solid white; 
     height: 2%;
     width: 50%;
     margin-left: 5%;
@@ -146,7 +146,7 @@ body, html{
   }
   
   #comment-box{
-  /* border:1px solid white; */
+   /*border:1px solid white; */
   height: 20%;
   width: 60%;
   margin-left: 5%;
@@ -291,11 +291,63 @@ body, html{
     /*-------------------------------------------------------------------------*/
     
     .all-news {
+      /*border: 1px solid white;*/
       color: white;
-      margin: 5%;
+      margin:0px;
 
     }
     .all-news h2 {
       font-family: 'Special Elite', cursive;
     }
   
+    .list-items{
+      border: 1px solid white;
+    }
+
+
+  .list-items .img{
+    border: 1px solid white;
+  }
+
+
+#img1{
+/*border: 1px solid white;*/
+display: flex;
+flex-shrink: 9%;
+width: 65%;
+height: 75%;
+flex-direction: row;
+margin-left: 15%;
+margin-top: 10%;
+filter: grayscale(10);
+overflow: hidden;
+}
+#textfirst{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+#textfirst::first-letter{
+  font-size: 40px;
+
+}
+
+#date1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  margin-left: 15%;
+   font-family: 'Special Elite', cursive;
+}
+
+#textmessage{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  margin-right:20%;
+  margin-top: 1%;
+  margin-left: 15%;
+
+ 
+}
