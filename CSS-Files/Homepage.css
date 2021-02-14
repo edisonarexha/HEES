@@ -460,4 +460,11 @@ filter:invert(100);
   border-color: white;
 }
 
-
+@media only screen and (max-width: 768px) {
+  .right-text-box {
+    flex-direction: column;
+  }
+  .left-text-box {
+    flex-direction: column-reverse;
+  }
+}

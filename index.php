@@ -6,6 +6,7 @@
   <title>
     HEES
   </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <!-------------Path to differnet CSS/JS CODE-------------------------------------------->
 
 
