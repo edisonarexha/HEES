@@ -28,7 +28,11 @@
 						$dbc = mysqli_connect('localhost', 'root','', 'hees') or die("Gabim gjat lidhjes.");
 
 						$query = "SELECT * FROM users";
-						$result=mysqli_query($dbc,$query);
+						$result=mysqli_query($dbc,$query); ?>
+						<div class="list-item header">
+							<span>Name</span><span>Email</span><span>Username</span><span>Role</span>
+						</div>
+						<?php
 						while ($row = mysqli_fetch_array($result)) {
 							echo "<div class=\"list-item\">
 									<span>".$row['name']."</span>
@@ -66,7 +70,27 @@
 			</div>
 				</div>
 
-				<div id="trend-tab"> Users-messages</div>
+				<div id="trend-tab"> 
+				<h1>Users-messages</h1>
+				<?php
+						$dbc = mysqli_connect('localhost', 'root','', 'hees') or die("Gabim gjat lidhjes.");
+
+						$query = "SELECT * FROM contact";
+						$result=mysqli_query($dbc,$query); ?>
+						<div class="list-item header">
+							<span>Name</span><span>Surname</span><span>Email</span><span>Subject</span><span>Comment</span>
+						</div>
+						<?php 
+						while ($row = mysqli_fetch_array($result)) {?>
+							<div class="list-item">
+									<span><?php echo $row['name'] ?></span>
+									<span><?php echo $row['surname']?></span>
+									<span><?php echo $row['email']?></span>
+									<span><?php echo $row['subject']?></span>
+									<span><?php echo $row['comment']?></span>
+							</div>
+						<?php }?>
+			</div>
 			</div>
 		</div>
 	</div>

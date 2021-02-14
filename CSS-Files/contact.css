@@ -27,6 +27,7 @@ background-size: cover;
 #space{
   /* border: 1px solid white; */
   width: 100%;
+  justify-content: space-between;
   height: 100%;
 }
 #blank-space{
@@ -70,16 +71,12 @@ background-size: cover;
   /* border: 1px solid white; */
   width: 50%;
   height: 20%;
-  float: left;
-  display: inline;
-  margin-top: 2%;
-  margin-left: 18%;
+  float: right;
+  display: flex;
+  margin-top: 15%;
+  
 }
-#contactis{
-  margin-left: 40%;
-  margin-top: 5%;
-  font-family: 'Special Elite', cursive;
-}
+
 #style1{
   font-family: 'Special Elite', cursive;
   color: white;
@@ -110,34 +107,10 @@ font-family: 'Special Elite', cursive;
 
 
 
-#contactis-1{
-  font-family: 'Oswald', sans-serif;
-  margin-left: 5%;
-  display: inline;
-  float: left;
-}
-#styleinput::placeholder{
-  font-size: 15px;
-}
-#styleinput{
-  display: inline;
-  margin-left: 10px;
-  font-size: 20px;
-  margin-top: 2%;
-  color: white;
-  float:left;
-  font-family: 'Special Elite', cursive;
-  padding: 1% 1%;
-  font-weight: bold;
-  border-bottom: 1px solid white;
-  border-top: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  background-color: black;
-}
+
 
 /* #styleinput::-webkit-validation-bubble */
-#style12{
+/* #style12{
   border: 1px solid white;
   margin-top: 3%;
   height: 5%;
@@ -146,9 +119,9 @@ font-family: 'Special Elite', cursive;
 background-color: black;
 font-family: 'Special Elite', cursive;
   padding: 1% 2%;
-}
+} */
 
-#contactis2{
+/* #contactis2{
 
   color: white;
   margin-left: 5%;
@@ -156,9 +129,9 @@ float: left;
 display: inline;
 font-family: 'Oswald', sans-serif;
 font-size: 20px;
-}
+} */
 
-#styleinput2{
+/* #styleinput2{
   display: inline;
   margin-left: 10px;
   font-size: 20px;
@@ -173,44 +146,22 @@ font-size: 20px;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   background-color: black;
-}
+} */
 
 #styleinput2::placeholder{
   font-size: 15px;
 }
 
 
-#contactus3{
-  color: white;
-  margin-left: 5%;
-float: left;
-display: inline;
-font-family: 'Oswald', sans-serif;
-font-size: 20px;
-}
-#styleinput3{
-  display: inline;
-  margin-left: 10px;
-  font-size: 20px;
-  color: white;
-  margin-top: 2%;
-  float:left;
-  font-family: 'Special Elite', cursive;
-  padding: 1% 1%;
-  font-weight: bold;
-  border-bottom: 1px solid white;
-  border-top: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  background-color: black;
-}
 
+/* 
 #form{
-  margin-left: 20%;
+  display: flex;
+  margin-left: auto;
   padding: 1% 2%;
  
 
-}
+} */
 .si{  font-size: 20px;
   color: white;
   margin-top: 2%;
@@ -228,7 +179,7 @@ font-size: 20px;
     font-size: 15px;
 
   }
-#name1{
+/* #name1{
   font-family: 'Oswald', sans-serif;
   
 }
@@ -243,7 +194,7 @@ font-size: 20px;
 #subject1{
   font-family: 'Oswald', sans-serif;
  
-}
+} */
 #form textarea{
   margin-left:0%;
   border: 1px solid white;
@@ -347,4 +298,9 @@ font-family: 'Special Elite', cursive;
   color: white;
    text-align: justify;
   font-family: 'Special Elite', cursive;
+}
+
+.middleForm{
+  display: flex;
+  margin-left: auto;
 }

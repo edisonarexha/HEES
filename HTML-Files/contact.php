@@ -98,7 +98,7 @@
     <div id="test2" style="color: aliceblue;">
       <div id="error_message"></div>
 
-      <form action="contactData.php" onsubmit="return validateForm()" method="POST">
+      <form name="middleForm" action="contactData.php" onsubmit="return validateForm()" method="POST">
 
         <h3 id="name1">Name:</h3>
         <input type="text" placeholder="name" class="si" id="name12" name="name" aria-required="true" required>
@@ -111,7 +111,7 @@
         <input type="text" placeholder="Subject" class="si" id="subject" name="subject" aria-required="true" required>
 
         <div>
-          <h3 id="text23">Your Comment:</h3><textarea rows="15" cols="70" form="form" name="comment" id="textareas"></textarea>
+          <h3 id="text23">Your Comment:</h3><textarea rows="15" cols="70" name="comment" id="textareas"></textarea>
         </div>
         <button type="submit" id="style234">Submit</button>
       </form>
