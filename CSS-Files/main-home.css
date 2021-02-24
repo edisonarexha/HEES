@@ -1,4 +1,5 @@
 body, html{
+  background-image: url("../Pictures/Capture.PNG");
   height: 100%;
   margin:0;
   
@@ -98,7 +99,6 @@ h1::first-letter{
   position: absolute;
   top: 8%;
   left: 30%;
-  /* border: 1px solid white; */
   height: 700px;
   color: black;
 }

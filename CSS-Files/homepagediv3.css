@@ -1,4 +1,5 @@
 body, html{
+  background-image: url("../Pictures/Capture.PNG");
     height: 100%;
     margin:0;
     
@@ -97,7 +98,7 @@ body, html{
  #position{
   position: absolute;
   top:8%;
-  left: 21%;
+  left: 30%;
   height: 700px;
   color: black;
  }

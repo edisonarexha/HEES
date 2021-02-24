@@ -28,6 +28,7 @@ if (!empty($name) || !empty($email) || !empty($username) || !empty($password) ||
         $uuid = guidv4();
         $INSERT = "INSERT INTO users (id, name, email, username, password, role) VALUES ('$uuid', '$name', '$email', '$username', '$password', '$role')";
         if ($conn->query($INSERT) === TRUE) {
+            setcookie("logedInUser", $uuid, time()+3600, '/');
             header('Location: ../HTML-Files/HomePage.php');
         } else {
             echo "Error: " . $INSERT . "<br>" . $conn->error;
