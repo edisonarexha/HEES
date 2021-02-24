@@ -19,7 +19,7 @@
             <div id="navbar">
                 <?php if(isset($_COOKIE['logedInUser'])) {?><a href="../HomePage.php" id="button-form">Home</a><?php }?>
                 <?php if(!isset($_COOKIE['logedInUser'])) {?><a href="../../index.php" id="button-form">Home</a><?php }?>
-                <a href="../News.php" id="button-form1">News</a>
+                <?php if(isset($_COOKIE['logedInUser'])) {?><a href="News.php" id="button-form1">News</a><?php }?>
                 <a href="../Aboutus.php" id="button-form1">About   us</a>
                 <a href="../contact.php" id="button-form1">Contact</a>
             </div>

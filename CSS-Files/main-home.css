@@ -95,14 +95,12 @@ h1::first-letter{
  margin-right: 10%;
 }
 #position{
- position: absolute;
- top:8%;
-  left: 21%;
-  /* border:1px solid white; */
+  position: absolute;
+  top: 8%;
+  left: 30%;
+  /* border: 1px solid white; */
   height: 700px;
   color: black;
-
-
 }
 
 
@@ -216,5 +214,10 @@ margin-top: 20px;
 
   #main h1 {
     padding-left: 10%;
+  }
+  .line-1 {
+    
+    white-space: pre-wrap;
+    overflow: hidden;
   }
 }

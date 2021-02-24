@@ -304,3 +304,28 @@ font-family: 'Special Elite', cursive;
   display: flex;
   margin-left: auto;
 }
+@media only screen and (max-width: 768px) {
+  .middleForm{
+    display: flex;
+    position: relative;
+  }
+
+  @media only screen and (max-width: 768px) {
+      #position {
+        left: 10px;
+      }
+      #navbar a {
+        min-width: 24%;
+      }
+     #video-01{
+      margin: auto;
+       display: block; 
+       filter: grayscale(100);
+     }
+      .line-1 {
+        
+        white-space: pre-wrap;
+        overflow: hidden;
+      }
+    }
+}
