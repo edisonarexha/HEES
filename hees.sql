@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2021 at 12:34 PM
+-- Generation Time: Feb 24, 2021 at 10:21 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.3.27
 
@@ -47,18 +47,6 @@ INSERT INTO `contact` (`id`, `name`, `surname`, `email`, `subject`, `comment`) V
 -- --------------------------------------------------------
 
 --
--- Table structure for table `main`
---
-
-CREATE TABLE `main` (
-  `title` varchar(50) NOT NULL,
-  `description` varchar(1000) NOT NULL,
-  `image` mediumblob NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `news`
 --
 
@@ -91,6 +79,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `username`, `password`, `role`) VALUES
 ('119de0ff-5d63-4097-ba0c-051ffe', 'Erestina', 'ere@hees.org', 'erestina.b', '12341234', 'Ambasador'),
+('18747ced-785a-4621-b58d-606c0e', 'blerti', 'blerton.r@hees.org', 'rexha_b', 'passwordi', 'Donator'),
+('df1e2d53-dcc6-44d2-b8fd-cac124', 'Ramiz', 'rami@hees.org', 'ramizhoxha', '123123', 'Ambasador'),
 ('e66a79b7-7162-4e1c-abca-ce7860', 'Arber', 'arberk@hees.org', 'arber_k', 'arber123', 'Ambasador'),
 ('f711fd25-b181-4e63-af29-39716c', 'Edisona', 'edisona@hees.org', 'edisona_r', '123123', 'admin');
 
