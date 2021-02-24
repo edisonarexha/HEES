@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <?php setcookie('logedInUser', null, '', '/')?>
+    <?php setcookie('logedInUser', null, 0, '/')?>
     <div class="container">
       <div class="pannel">
         <div class="centered">
