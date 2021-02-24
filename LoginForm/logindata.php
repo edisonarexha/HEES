@@ -21,10 +21,10 @@ if ($conn->connect_error) {
         }
 
         if (isset($res) && $res == 'admin') {
-            setcookie("logedInUser", $userId, '', '/');
+            setcookie("logedInUser", $userId, time()+3600, '/');
             header('Location: ../Admin/admin.php');
         } elseif( isset($res) && ($res == 'Ambasador' || $res == 'Donator')) {
-            setcookie("logedInUser", $userId, '', '/');
+            setcookie("logedInUser", $userId, time()+3600, '/');
             header('Location: ../HTML-Files/HomePage.php');
         } else {
             echo "<div class=\"non-login-screen\">";
