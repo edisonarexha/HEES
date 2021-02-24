@@ -72,6 +72,14 @@ body, html{
   margin: 10px;
   cursor: pointer;
 }
+#navbar .right1 {
+  float: right;
+  border: 1px solid;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
 
 
    #button-form{

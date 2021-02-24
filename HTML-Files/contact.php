@@ -3,7 +3,8 @@
 
 <head>
   <title>HEES</title>
-  <link rel="stylesheet" type="text/css" href="../CSS-Files/Homepage.css" <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../CSS-Files/Homepage.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="../CSS-Files/contact.css" />
   <script type="text/javascript" src="../JavaScript-Files/Homepage.js"></script>
   <script src="../JavaScript-Files/contact.js"></script>
@@ -57,45 +58,27 @@
     </script>
     <img name="slide" id="imgstyle" style="filter: invert(0);">
   </div>
-  <div id="space">
-    <div id="blank-space">
-      <div id="emri">
-        <h3 id="styletext">
-          Comments: So far from home
-        </h3>
-      </div>
-      <div id="koment-space">
-        <p id="style1">
-          By August 1921, the UK Save the Children had raised over £1,000,000, and conditions for children in Central Europe were improving due to their efforts. However, the Russian famine of 1921 made Jebb realise that Save the Children must be a permanent organisation and that children's rights constantly need to be protected.[11] Their mission was thus changed to "an international effort to preserve child life wherever it is menaced by conditions of economic hardship and distress"
-          From 1921 to 1923, Save the Children created press campaigns, propaganda movies and feeding centres in Russia and in Turkey to feed and educate thousands of refugees. They began to work with several other organisations such as the Russian Famine Relief Fund and Nansen which resulted in recognition by the League of Nations. Although Russia was largely closed off to international relief and aid, Save the Children persuaded Soviet authorities to let them have a ground presence.
-        </p>
 
-
-      </div>
-      <div id="muzik-space">
-        <audio controls autoplay>
-          <source src="../Audio/Sam Tinnesz - Far From Home (The Raven) [Official Audio].mp3" style="color: white;" id="audio-1">
-          Sam Tinnesz
-        </audio>
-      </div>
-
-    </div>
-
-    <div>
-      <div id="error">
-
-      </div>
-
-      <div id="test4">
-        <p>
+  <div class="comments-space">
+      <div class="comment">
+        <h3>Comments: So far from home</h3>
+        <p> 
           By August 1921, the UK Save the Children had raised over £1,000,000, and conditions for children in Central Europe were improving due to their efforts. However, the Russian famine of 1921 made Jebb realise that Save the Children must be a permanent organisation and that children's rights constantly need to be protected.[11] Their mission was thus changed to "an international effort to preserve child life wherever it is menaced by conditions of economic hardship and distress"
           From 1921 to 1923, Save the Children created press campaigns, propaganda movies and feeding centres in Russia and in Turkey to feed and educate thousands of refugees. They began to work with several other organisations such as the Russian Famine Relief Fund and Nansen which resulted in recognition by the League of Nations. Although Russia was largely closed off to international relief and aid, Save the Children persuaded Soviet authorities to let them have a ground presence.
         </p>
       </div>
-    </div>
-
-
-    <div id="test2" style="color: aliceblue;">
+      <p class="comment">
+        By August 1921, the UK Save the Children had raised over £1,000,000, and conditions for children in Central Europe were improving due to their efforts. However, the Russian famine of 1921 made Jebb realise that Save the Children must be a permanent organisation and that children's rights constantly need to be protected.[11] Their mission was thus changed to "an international effort to preserve child life wherever it is menaced by conditions of economic hardship and distress"
+        From 1921 to 1923, Save the Children created press campaigns, propaganda movies and feeding centres in Russia and in Turkey to feed and educate thousands of refugees. They began to work with several other organisations such as the Russian Famine Relief Fund and Nansen which resulted in recognition by the League of Nations. Although Russia was largely closed off to international relief and aid, Save the Children persuaded Soviet authorities to let them have a ground presence.
+      </p>
+  </div>
+  <div id="muzik-space">
+    <audio controls autoplay>
+      <source src="../Audio/Sam Tinnesz - Far From Home (The Raven) [Official Audio].mp3" style="color: white;" id="audio-1">
+      Sam Tinnesz
+    </audio>
+  </div>
+   <div id="contact-form" style="color: aliceblue;">
       <div id="error_message"></div>
 
       <form name="middleForm" action="contactData.php" onsubmit="return validateForm()" method="POST">
@@ -111,7 +94,7 @@
         <input type="text" placeholder="Subject" class="si" id="subject" name="subject" aria-required="true" required>
 
         <div>
-          <h3 id="text23">Your Comment:</h3><textarea rows="15" cols="70" name="comment" id="textareas"></textarea>
+          <h3 id="text23">Your Comment:</h3><textarea rows="15" name="comment" id="textareas"></textarea>
         </div>
         <button type="submit" id="style234">Submit</button>
       </form>
@@ -125,7 +108,7 @@
       </video>
 
     </div>
-    <div id="last">
+    <!-- <div id="last">
       <div id="erestina">
         <div id="pic">
         </div>
@@ -148,7 +131,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 </body>
 
 </html>

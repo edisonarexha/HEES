@@ -5,7 +5,14 @@ body {
   background-size: 100%;
   min-height: 100vh;
 }
-
+#navbar {
+  background-color: #333; /* Black background color */
+  background:transparent;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
 .container {
   max-width: 1000px;
   margin: auto;

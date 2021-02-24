@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="../CSS-Files/Homepage.css" >
     <link rel="stylesheet" type="text/css" href="Login.css" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     
@@ -25,6 +26,11 @@
 
   <body>
     <?php setcookie('logedInUser', null, 0, '/')?>
+    <div id="navbar">
+      <a href="../index.php" id="button-form">Home</a>
+      <a href="../HTML-Files/Aboutus.php" id="button-form1">About us</a>
+      <a href="../HTML-Files/contact.php" id="button-form1">Contact</a>
+    </div>
     <div class="container">
       <div class="pannel">
         <div class="centered">

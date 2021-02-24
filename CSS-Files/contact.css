@@ -1,113 +1,103 @@
-body{
-  margin:0;
+body {
+  margin: 0;
   background-color: black;
 }
 
-#contact-me-div{
+#contact-me-div {
   /* border:1px solid white; */
-height: 100%;
-width: 100%;
-background-image: url('../Pictures/mostafa-meraji-cyEpUehK1cs-unsplash.jpg');
-background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../Pictures/mostafa-meraji-cyEpUehK1cs-unsplash.jpg");
+  background-size: cover;
 }
-#contact-me-div2{
-   /* border: 1px solid white; */
-   height: 130%;
-   width: 100%;
+#contact-me-div2 {
+  /* border: 1px solid white; */
+  height: 130%;
+  width: 100%;
 }
 
-#imgstyle{
-  width:70%;
+#imgstyle {
+  width: 70%;
   height: 70%;
   margin-top: 8%;
   margin-left: 14%;
-
 }
 
-#space{
+#space {
   /* border: 1px solid white; */
   width: 100%;
   justify-content: space-between;
   height: 100%;
 }
-#blank-space{
+#blank-space {
   /* border: 1px solid white; */
   width: 50%;
   height: 100%;
   float: left;
   display: inline;
 }
-#emri{
+#emri {
   /* border: 1px solid white; */
-  width:50%;
+  width: 50%;
   height: 10%;
-  float:left;
-  margin-top:10%;
-  margin-left:10%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
   color: white;
 }
 
-#koment-space{
+#koment-space {
   /* border:1px solid white; */
   width: 60%;
   height: 40%;
   float: left;
-  display :inline;
-  margin-top:5%;
+  display: inline;
+  margin-top: 5%;
   margin-left: 10%;
 }
 
-#form-div{
+#form-div {
   /* border:1px solid white; */
   width: 50%;
   height: 100%;
   float: right;
- display: inline;
+  display: inline;
 }
-#styletext{
-  font-family: 'Special Elite', cursive;
+#styletext {
+  font-family: "Special Elite", cursive;
 }
-#muzik-space{
-  /* border: 1px solid white; */
+#muzik-space {
   width: 50%;
   height: 20%;
-  float: right;
   display: flex;
-  margin-top: 15%;
-  
+  margin: 2em auto;
 }
 
-#style1{
-  font-family: 'Special Elite', cursive;
+#style1 {
+  font-family: "Special Elite", cursive;
   color: white;
   text-align: justify;
 }
-#test4{
+#test4 {
   /* border: 1px solid white; */
   width: 50%;
   height: 100%;
   float: left;
-display: inline;
-margin-top: 10%;
-color: white;
-padding: 2px 5px;
-text-align: justify;
-font-family: 'Special Elite', cursive;
+  display: inline;
+  margin-top: 10%;
+  color: white;
+  padding: 2px 5px;
+  text-align: justify;
+  font-family: "Special Elite", cursive;
 }
 
-#test2{
+#test2 {
   /* border: 1px solid white; */
   width: 100%;
   height: 150%;
   float: left;
   display: inline;
 }
-
-
-
-
-
-
 
 /* #styleinput::-webkit-validation-bubble */
 /* #style12{
@@ -148,11 +138,9 @@ font-size: 20px;
   background-color: black;
 } */
 
-#styleinput2::placeholder{
+#styleinput2::placeholder {
   font-size: 15px;
 }
-
-
 
 /* 
 #form{
@@ -162,23 +150,24 @@ font-size: 20px;
  
 
 } */
-.si{  font-size: 20px;
+.si {
+  font-size: 20px;
   color: white;
   margin-top: 2%;
- 
-  font-family: 'Special Elite', cursive;
+
+  font-family: "Special Elite", cursive;
   padding: 1% 1%;
   font-weight: bold;
   border-bottom: 1px solid white;
   border-top: 1px solid transparent;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
-  background-color: black;}
+  background-color: black;
+}
 
-  .si::placeholder{
-    font-size: 15px;
-
-  }
+.si::placeholder {
+  font-size: 15px;
+}
 /* #name1{
   font-family: 'Oswald', sans-serif;
   
@@ -195,43 +184,38 @@ font-size: 20px;
   font-family: 'Oswald', sans-serif;
  
 } */
-#form textarea{
-  margin-left:0%;
+#form textarea {
+  margin-left: 0%;
   border: 1px solid white;
   color: white;
   font-size: 20px;
   background-color: black;
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   resize: none;
 }
-#form #error_message{
-  font-family: 'Oswald', sans-serif;
+#form #error_message {
+  font-family: "Oswald", sans-serif;
   margin-bottom: 20px;
   padding: 0px;
-  background:black;
+  background: black;
   text-align: center;
-transition:all 0.5s ease;
+  transition: all 0.5s ease;
   font-size: 14px;
 }
-#text23{
-  margin-left: 20%;
-  font-family: 'Oswald', sans-serif;
-  
+#text23 {
+  font-family: "Oswald", sans-serif;
 }
-#style234{
+#style234 {
   /* border: 1px solid white; */
   margin-top: 2%;
-  margin-left:55%;
   height: 5%;
-  width: 15%;
   color: white;
-background-color: black;
-font-family: 'Special Elite', cursive;
+  background-color: black;
+  font-family: "Special Elite", cursive;
   padding: 1% 2%;
 }
 
-
-#newdivvideotryout{
+#newdivvideotryout {
   /* border: 1px solid white; */
   width: 100%;
   height: 150%;
@@ -239,93 +223,108 @@ font-family: 'Special Elite', cursive;
   display: inline;
   position: relative;
 }
-#video1 { margin: auto; display: block; filter: grayscale(100);}
-#last{
+#video1 {
+  margin: auto;
+  display: block;
+  filter: grayscale(100);
+  max-width: 100%;
+}
+#last {
   /* border: 1px solid white; */
   width: 100%;
   height: 150%;
   float: left;
   display: inline;
-
 }
-#erestina{
+#erestina {
   /* border: 1px solid white; */
   width: 50%;
   height: 100%;
   float: left;
   display: inline;
 }
-#pic{
+#pic {
   /* border: 1px solid white; */
   width: 50%;
   height: 30%;
   float: left;
-  display :inline;
-  margin-top:20%;
+  display: inline;
+  margin-top: 20%;
   margin-left: 25%;
-  background-image: url('../Pictures/Erestina.png');
+  background-image: url("../Pictures/Erestina.png");
   filter: grayscale(100);
   background-size: cover;
 }
 
-#edisona{
+#edisona {
   /* border: 1px solid white; */
   width: 50%;
   height: 100%;
   float: left;
   display: inline;
 }
-#pic1{
+#pic1 {
   /* border: 1px solid white; */
   width: 50%;
   height: 30%;
   float: left;
-  display :inline;
-  margin-top:20%;
+  display: inline;
+  margin-top: 20%;
   margin-left: 35%;
-  background-image: url('../Pictures/edisona.jpg');
+  background-image: url("../Pictures/edisona.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-#texter{
+#texter {
   /* border: 1px solid white; */
   width: 50%;
   height: 40%;
   float: left;
-  display:inline;
+  display: inline;
   margin-top: 10%;
-  margin-left:25%;
+  margin-left: 25%;
   color: white;
-   text-align: justify;
-  font-family: 'Special Elite', cursive;
+  text-align: justify;
+  font-family: "Special Elite", cursive;
 }
 
-.middleForm{
+.middleForm {
   display: flex;
   margin-left: auto;
 }
-@media only screen and (max-width: 768px) {
-  .middleForm{
-    display: flex;
-    position: relative;
-  }
 
-  @media only screen and (max-width: 768px) {
-      #position {
-        left: 10px;
-      }
-      #navbar a {
-        min-width: 24%;
-      }
-     #video-01{
-      margin: auto;
-       display: block; 
-       filter: grayscale(100);
-     }
-      .line-1 {
-        
-        white-space: pre-wrap;
-        overflow: hidden;
-      }
-    }
+.comments-space{
+  color: white;
+  display: flex;
+}
+.comments-space .comment {
+  flex:1;
+  padding: 1em;
+}
+#contact-form {
+  padding: 1em;
+}
+#contact-form #textareas {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .comments-space{
+    flex-direction: column;
+  }
+  #position {
+    left: 10px;
+  }
+  #navbar a {
+    min-width: 24%;
+  }
+  #video-01 {
+    margin: auto;
+    display: block;
+    filter: grayscale(100);
+  }
+  /* .line-1 {
+    white-space: pre-wrap;
+    overflow: hidden;
+  } */
 }

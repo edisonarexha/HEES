@@ -43,6 +43,14 @@
   <a href="News.php" id="button-form1">News</a>
   <a href="Aboutus.php" id="button-form1">About us</a>
   <a href="contact.php" id="button-form1">Contact</a>
+ 
+  <?php if(isset($_COOKIE['logedInUser'])&&strpos($_COOKIE['logedInUser'], 'admin') !== false) 
+  {?>
+   <div class="right1">
+    <div class="backtoadmin" onclick="window.location.href='../Admin/admin.php'">Back to Dashboard</div>
+    </div>
+  <?php }?>
+ 
   <div class="right">
     <div class="logout" onclick="window.location.href='../LoginForm/LogIn.php'">Logout</div>
   </div>

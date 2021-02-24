@@ -21,7 +21,7 @@ if ($conn->connect_error) {
         }
 
         if (isset($res) && $res == 'admin') {
-            setcookie("logedInUser", $userId, time()+3600, '/');
+            setcookie("logedInUser", "admin-".$userId, time()+3600, '/');
             header('Location: ../Admin/admin.php');
         } elseif( isset($res) && ($res == 'Ambasador' || $res == 'Donator')) {
             setcookie("logedInUser", $userId, time()+3600, '/');
