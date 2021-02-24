@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS-Files/news.css">
         
   <script type="text/javascript" src="../JavaScript-Files/Homepage.js"></script>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 
 
   <title>

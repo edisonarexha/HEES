@@ -8,6 +8,7 @@ session_start();
   <head>
     <title>Log in</title>
     <link rel="stylesheet" type="text/css" href="Login.css" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:wght@500&display=swap"

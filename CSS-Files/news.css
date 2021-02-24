@@ -351,3 +351,15 @@ overflow: hidden;
 
  
 }
+@media only screen and (max-width: 768px) {
+  #position {
+    left: 10px;
+  }
+  #navbar a {
+    min-width: 24%;
+  }
+
+  #main h1 {
+    padding-left: 10%;
+  }
+}

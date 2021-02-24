@@ -1,10 +1,10 @@
 <html>
     <head>
         <title>H.E.E.S</title>
-        <link rel="stylesheet" type="text/css" href="../../CSS-Files/homepagediv3.css">
-        <link rel="stylesheet" type="text/css" href="../../CSS-Files/Homepage.css">
+        <link rel="stylesheet" type="text/css" href="..//CSS-Files/main-home.css">
+        <link rel="stylesheet" type="text/css" href="..//CSS-Files/Homepage.css">
         <!-- <script type="text/javascript" src="Homepage.js"></script> -->
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
 
         <!-- codes to be used for different fonts in this page-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,10 +17,10 @@
             
             <div id="navbar">
                 <?php if(isset($_COOKIE['logedInUser'])) {?><a href="../HomePage.php" id="button-form">Home</a><?php }?>
-                <?php if(!isset($_COOKIE['logedInUser'])) {?><a href="../../index.php" id="button-form">Home</a><?php }?>
+                <?php if(!isset($_COOKIE['logedInUser'])) {?><a href="../index.php" id="button-form">Home</a><?php }?>
                 <?php if(isset($_COOKIE['logedInUser'])) {?><a href="News.php" id="button-form1">News</a><?php }?>
-                <a href="../Aboutus.php" id="button-form1">About   us</a>
-                <a href="../contact.php" id="button-form1">Contact</a>
+                <a href="../HTML-Files/Aboutus.php" id="button-form1">About   us</a>
+                <a href="../HTML-Files/contact.php" id="button-form1">Contact</a>
             </div>
     <div>
         <div id="header">
@@ -29,47 +29,21 @@
 
         </div>
         <div id="main">
-            <h1> The Need for a Theory</h1>
+            <h1> What is H.E.E.S</h1>
             <p></p>
             <p></p>
             <p>
-                Few concepts are as frequently invoked in contemporary political discussions as human rights. There is something deeply attractive in the
-idea that every person anywhere in the world, irrespective of citizenship
-or territorial legislation, has some basic rights, which others should
-respect. The moral appeal of human rights has been used for a variety of
-purposes, from resisting torture and arbitrary incarceration to demanding the end of hunger and of medical neglect.1
-At the same time, the central idea of human rights as something that
-people have, and have even without any specific legislation, is seen by
-many as foundationally dubious and lacking in cogency. A recurrent
-question is, Where do these rights come from? It is not usually disputed
-that the invoking of human rights can be politically powerful. Rather,
-the worries relate to what is taken to be the “softness” (some would
-say “mushiness”) of the conceptual grounding of human rights. Many
-philosophers and legal theorists see the rhetoric of human rights as justloose talk—perhaps kindly and well meaning forms of locution—but
-loose talk nevertheless.
-The contrast between the widespread use of the idea of human rights
-and the intellectual skepticism about its conceptual soundness is not
-new. The U.S. Declaration of Independence, in 1776, took it to be “selfevident” that everyone is “endowed by their Creator with certain inalienable rights,” and thirteen years later, the French declaration of “the rights
-of man” asserted that “men are born and remain free and equal in rights.”
-But it did not take Jeremy Bentham long, in his Anarchical Fallacies
-written during 1791 and 1792 (aimed against the French “rights of man”),
-to propose the total dismissal of all such claims. Bentham insisted that
-“natural rights is simple nonsense: natural and imprescriptible rights (an
-American phrase), rhetorical nonsense, nonsense upon stilts.”2 That suspicion remains very alive today, and despite persistent use of the idea
-of human rights in practical affairs, there are many who see the idea of
-human rights as no more than “bawling upon paper,” to use another of
-Bentham’s barbed portrayals of natural right claims.
-The dismissal of human rights is often comprehensive and is aimed
-against any belief in the existence of rights that people can have unconditionally, simply by virtue of their humanity (rather than having them
-contingently, on the basis of specific qualifications, such as citizenship
-or legal entitlements). Some critics, however, propose a discriminating
-rejection: they accept the general idea of human rights but exclude, from
-the acceptable list, specific classes of proposed rights, in particular the
-so-called economic and social rights, or welfare rights. These rights,
-which are sometimes referred to as second generation rights, such as a
-common entitlement to subsistence or to medical care, have mostly
-been added relatively recently to earlier enunciations of human rights,
-thereby vastly expanding the claimed domain of human rights
+               H.E.E.S is an organization that does help to people , since we know that most of the world
+               dont have much to feed themself and go to school so we decided to organize
+               this organization to help the poor to help the weak to help us
+               .The world we see now is a fruit of our work before, we did bad to our nature
+               now nature is doing bad to us. We need to work on  it to protect us , to protect our 
+               future. The more we are into it the more we know about the humanity.The more we think and work
+               the more we help and make people happy , people need food, water
+               health incurence and happiness sometimes we think we might have been into that position
+               and we would want to be helped so help us to help u every human ever should help each other
+               based to how much we should care about each other .Beautiful stories we will see later on these pages
+               The more we work about us the more we win!
 
             
             </p>
@@ -114,14 +88,10 @@ thereby vastly expanding the claimed domain of human rights
             </p>
             <a href="https://booksc.xyz/book/9055067/156a62" id="dio">Download for more</a>
         </div>
-<div id="footer">
-
-</div>
 
     </div>
     <div id="position">
-        <p class="line-1 anim-typewriter">Elements of a Theory of
-            Human Rights<br></p>
+        <p class="line-1 anim-typewriter">H.E.E.S-Lets help together!<br></p>
         
     </div>
 

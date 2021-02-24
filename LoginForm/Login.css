@@ -256,3 +256,15 @@ input:hover {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  body{
+ 
+  background-image: url("hh.webp");
+  background-repeat: repeat;
+  
+  }
+}

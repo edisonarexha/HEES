@@ -1,5 +1,4 @@
 
-
 function validation(){
   var name12 = document.getElementById('name12').value;
    var surname = document.getElementById('surname').value;

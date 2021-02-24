@@ -57,7 +57,7 @@
     Humanity experience Ephiphany on a day of Euphoria <br >with Singularity
   </h3>
   <div class="more-btn">
-    <button id="button-more" onclick="window.location.href='../HTML-Files/Main-Home.html'">
+    <button id="button-more" onclick="window.location.href='../HTML-Files/Main-Home.php'">
       More
     </button>
   </div>
