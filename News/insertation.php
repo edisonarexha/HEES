@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 	
 $titulli = $_POST['titulli'];
 $data = $_POST['data'];
-$mesazhi = $_POST['mesazhi'];
+$mesazhi = addslashes($_POST['mesazhi']);
 $fotografi = addslashes(file_get_contents($_FILES['fotografi']['tmp_name']));
 $INSERT = "INSERT INTO news (id, title, date, message, photo) VALUES ('$uuid','$titulli','$data','$mesazhi', '$fotografi')";
 	if ($conn->query($INSERT) === TRUE) {

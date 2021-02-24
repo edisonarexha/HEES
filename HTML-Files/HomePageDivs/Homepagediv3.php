@@ -108,7 +108,8 @@
                 administration, and research
             </p>
             <a href="https://booksc.org/book/11068959/9f2687" id="dio">Download for more</a>
-        </div>
+        </div> 
+
     <div id="position">
         <p class="line-1 anim-typewriter">Administrative Science Quarterly<br></p>
         

@@ -468,3 +468,24 @@ filter:invert(100);
     flex-direction: column-reverse;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #position {
+    left: 10px;
+  }
+
+  #main h1 {
+    padding-left: 10%;
+  }
+  .line-1 {
+    
+    white-space: pre-wrap;
+    overflow: hidden;
+  }
+
+  
+  #navbar a {
+    min-width: 24%;
+  }
+
+}
