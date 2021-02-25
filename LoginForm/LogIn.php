@@ -14,12 +14,6 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
 
     <script src="script.js"></script>
   </head>
@@ -57,20 +51,6 @@
                   />
                   <div id="error-message"></div>
                   <button type="submit">Login</button>
-                </div>
-                <div class="row social-media">
-                  <a href="#" class="fb">
-                    <i class="fa fa-facebook fa-fw"></i>
-                  </a>
-                  <a href="#" class="twitter">
-                    <i class="fa fa-twitter fa-fw"></i>
-                  </a>
-                  <a href="#" class="google"
-                    ><i class="fa fa-google fa-fw"> </i>
-                  </a>
-                  <a href="#" style="color: white" class="btn"
-                    >Remember me</a
-                  >
                 </div>
               </div>
             </form>
